@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chanchal Diamonds – The House of Diamonds</title>
+  <meta name="description"
+    content="India's premier diamond jewellery manufacturer. GIA certified, factory-direct pricing, 0% wastage. The House of Diamonds — Surat, India." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot" id="cursor-dot"></div>
+  <div class="cursor-ring" id="cursor-ring"></div>
+
+  <!-- ═══════════════════════════════════════════
+       NAVBAR
+  ═══════════════════════════════════════════ -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo shimmer-text">Chanchal Diamonds</a>
+    <ul class="nav-links">
+      <li><a href="#gallery">Collections</a></li>
+      <li><a href="#diamonds">Lab-Grown</a></li>
+      <li><a href="#timeline">Process</a></li>
+      <li><a href="#certificates">Certified</a></li>
+      <li><a href="#cta">Contact</a></li>
+    </ul>
+    <button class="nav-cta" onclick="window.open('https://wa.me/917200024247','_blank')">Enquire Now</button>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-noise"></div>
+    <div class="particles-container" id="particles"></div>
+    <div class="image-trail-container" id="image-trail"></div>
+
+    <div class="hero-content" style="position:relative;z-index:2;padding:100px 20px 40px;">
+
+
+
+      <p class="hero-eyebrow">Surat · India's Diamond Hub · Est. Since Inception</p>
+
+      <!-- LOGO -->
+      <div class="hero-logo-container">
+        <img src="CHANCHAL.png" alt="Chanchal Diamonds — The House of Diamonds" class="hero-logo" loading="eager" />
+      </div>
+
+      <h1 class="hero-title">
+        The House of<br>
+        <em class="shimmer-text">Diamonds</em>
+      </h1>
+
+      <p class="hero-subtitle">Chanchal Diamonds</p>
+
+
+      <div class="hero-divider">
+        <span class="hero-divider-line"></span>
+        <span class="hero-divider-gem">◆</span>
+        <span class="hero-divider-line"></span>
+      </div>
+
+      <p class="hero-desc">
+        Crafting bespoke diamond jewellery at factory-direct prices.<br>
+        GIA certified · 0% wastage · 100% buyback guarantee.
+      </p>
+
+      <div class="hero-btns">
+        <button class="btn-gold" onclick="document.getElementById('gallery').scrollIntoView({behavior:'smooth'})">
+          <span>Explore Collections</span>
+        </button>
+        <button class="btn-outline" onclick="window.open('https://wa.me/c/918668169114','_blank')">
+          <span>View Catalogue ↗</span>
+        </button>
+      </div>
+    </div>
+
+
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       MARQUEE
+  ═══════════════════════════════════════════ -->
+  <div class="marquee-band">
+    <div class="marquee-track" id="marquee-track">
+      <span class="marquee-item"><span class="marquee-gem">◆</span> Factory-Direct Prices</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span> GIA Certified Diamonds</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span> 0% Wastage · No Hidden Charges</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span> D–E–F Grade · IF–VVS1 Clarity</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span> 100% Buyback Guarantee</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span> Only Platinum Manufacturer in South India</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span> Top 10 Manufacturer in Surat</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span> Starting ₹2,500 Onwards</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span> Ideal Cut · IF–VVS1</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span> In-House Manufacturing</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span> Factory-Direct Prices</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span> GIA Certified Diamonds</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span> 0% Wastage · No Hidden Charges</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span> D–E–F Grade · IF–VVS1 Clarity</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span> 100% Buyback Guarantee</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span> Only Platinum Manufacturer in South India</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span> Top 10 Manufacturer in Surat</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span> Starting ₹2,500 Onwards</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span> Ideal Cut · IF–VVS1</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span> In-House Manufacturing</span>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       WHY CHANCHAL
+  ═══════════════════════════════════════════ -->
+  <section id="why">
+    <div class="section-inner">
+      <div class="why-header">
+        <p class="section-label reveal">Why Choose Us</p>
+        <h2 class="section-title reveal">
+          Crafting Perfection,<br>
+          <span class="shimmer-text">In Every Detail</span>
+        </h2>
+        <div class="section-divider reveal"></div>
+        <p class="reveal" style="font-size:14px;color:var(--muted);line-height:2.1;max-width:520px;">
+          State-of-the-art manufacturing in Surat, India's diamond capital. A team of 50+ master craftsmen, backed by 3D
+          CAD/CAM technology and decades of precision craftsmanship.
+        </p>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-card reveal">
+          <span class="why-icon">🏭</span>
+          <h3>In-House Manufacturing</h3>
+          <p>Our Surat facility uses 3D CAD/CAM technology, 3D printing, precision casting, polishing, and diamond
+            setting — all under one roof, delivering flawless results every time.</p>
+        </div>
+        <div class="why-card reveal">
+          <span class="why-icon">💎</span>
+          <h3>GIA Certified Diamonds</h3>
+          <p>Every diamond we offer is certified by GIA, SGL, or Spectrum. Available from 0.30 to 5.00 carats. D–E–F
+            colour, IF–VVS1 clarity, Ideal Cut — the finest grades only.</p>
+        </div>
+        <div class="why-card reveal">
+          <span class="why-icon">⚖️</span>
+          <h3>Zero Wastage Policy</h3>
+          <p>Absolute transparency — 0% wastage on diamond jewellery with no hidden charges. Every gram is accounted
+            for, and every price reflects true value.</p>
+        </div>
+        <div class="why-card reveal">
+          <span class="why-icon">🔁</span>
+          <h3>100% Buyback Guarantee</h3>
+          <p>Every piece comes with a full buyback guarantee backed by our reputation. Your jewellery is not just an
+            accessory — it's a lifetime investment you can always count on.</p>
+        </div>
+        <div class="why-card reveal">
+          <span class="why-icon">🌱</span>
+          <h3>Lab-Grown & Natural</h3>
+          <p>One of India's few manufacturers offering both ethically sourced lab-grown diamonds and naturally mined
+            stones — giving you the full spectrum of choice.</p>
+        </div>
+        <div class="why-card reveal">
+          <span class="why-icon">🏆</span>
+          <h3>Top 10 in Surat</h3>
+          <p>Ranked among Surat's top 10 jewellery manufacturers — a recognition earned through years of consistent
+            excellence, integrity, and unmatched craftsmanship.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       GALLERY — Instagram Collection
+  ═══════════════════════════════════════════ -->
+  <section id="gallery">
+    <div class="section-inner">
+      <div class="gallery-header">
+        <div>
+          <p class="section-label reveal">Our Collections</p>
+          <h2 class="section-title reveal">
+            Jewellery That<br>
+            <span class="shimmer-text">Speaks Your Story</span>
+          </h2>
+          <div class="section-divider reveal"></div>
+        </div>
+        <a class="ig-link reveal" href="https://www.instagram.com/chanchaldiamonds" target="_blank">
+          📸 &nbsp;@chanchaldiamonds &nbsp;↗
+        </a>
+      </div>
+
+      <!-- Flash Card Carousel -->
+      <div class="gallery-carousel-wrapper">
+        <div class="gallery-carousel-track" id="gallery-track">
+
+          <div class="flash-card reveal" data-category="Solitaire Bangles"
+            data-desc="Elegant and enduring, our diamond bangles are designed to wrap your wrist in continuous sparkle, reflecting grace, strength, and timeless beauty with every move.">
+            <div class="gallery-visual">
+              <img src="col-1.png" alt="Solitaire Ring" style="width:100%;height:100%;object-fit:cover;">
+            </div>
+            <div class="gallery-overlay">
+              <span class="gallery-tag">Solitaire Bangles</span>
+            </div>
+          </div>
+
+          <div class="flash-card reveal" data-category="Diamond Necklaces"
+            data-desc="From subtle shimmer to statement sparkle, our diamond earrings are crafted to frame your face with brilliance, bringing out confidence and charm in every moment.">
+            <div class="gallery-visual">
+              <img src="col-2.png" alt="Diamond Necklace" style="width:100%;height:100%;object-fit:cover;">
+            </div>
+            <div class="gallery-overlay">
+              <span class="gallery-tag">Diamond Earings</span>
+            </div>
+          </div>
+
+          <div class="flash-card reveal" data-category="Earrings"
+            data-desc="Designed to grace every neckline, our diamond necklaces flow with elegance and radiance, adding a touch of sophistication to both everyday looks and special occasions.">
+            <div class="gallery-visual">
+              <img src="col-3.png" alt="Earrings" style="width:100%;height:100%;object-fit:cover;">
+            </div>
+            <div class="gallery-overlay">
+              <span class="gallery-tag">Diamond Necklace</span>
+            </div>
+          </div>
+
+          <div class="flash-card reveal" data-category="Gold Bangles"
+            data-desc="Crafted to celebrate love, milestones, and forever moments, our diamond rings blend timeless elegance with brilliant craftsmanship that shines with every gesture.">
+            <div class="gallery-visual">
+              <img src="col-4.png" alt="Gold Bangles" style="width:100%;height:100%;object-fit:cover;">
+            </div>
+            <div class="gallery-overlay">
+              <span class="gallery-tag">Diamond Rings</span>
+            </div>
+          </div>
+
+          <div class="flash-card reveal" data-category="Thin Chains"
+            data-desc="Delicate, graceful, and sparkling. Our thin diamond chains rest elegantly to compliment any outfit.">
+            <div class="gallery-visual">
+              <img src="col-6.png" alt="Thin Chains" style="width:100%;height:100%;object-fit:cover;">
+            </div>
+            <div class="gallery-overlay">
+              <span class="gallery-tag">Thin Chains</span>
+            </div>
+          </div>
+
+          <div class="flash-card reveal" data-category="Diamond Dollars"
+            data-desc="Luxurious diamond and gold dollar pendants that sit perfectly close to your heart, carrying timeless elegance.">
+            <div class="gallery-visual">
+              <img src="col-7.png" alt="Diamond Dollars" style="width:100%;height:100%;object-fit:cover;">
+            </div>
+            <div class="gallery-overlay">
+              <span class="gallery-tag">Diamond Dollars</span>
+            </div>
+          </div>
+
+          <div class="flash-card reveal" data-category="Premium Pendants"
+            data-desc="Masterfully crafted diamond pendants offering a contemporary twist on classic high jewellery.">
+            <div class="gallery-visual">
+              <img src="col-8.png" alt="Premium Pendants" style="width:100%;height:100%;object-fit:cover;">
+            </div>
+            <div class="gallery-overlay">
+              <span class="gallery-tag">Premium Pendants</span>
+            </div>
+          </div>
+
+          <div class="flash-card reveal" data-category="Luxury Watches"
+            data-desc="Precision timekeeping wrapped in brilliant diamonds. Our custom customized watches are masterpieces of horology and jewel craft.">
+            <div class="gallery-visual">
+              <img src="col-5.png" alt="Luxury Watches" style="width:100%;height:100%;object-fit:cover;">
+            </div>
+            <div class="gallery-overlay">
+              <span class="gallery-tag">Luxury Watches</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="gallery-cta reveal">
+        <p style="font-size:12px;color:var(--muted);letter-spacing:2px;margin-bottom:20px;text-transform:uppercase;">
+          Browse our full collection on Instagram
+        </p>
+        <button class="btn-outline" onclick="window.open('https://www.instagram.com/chanchaldiamonds','_blank')">
+          <span>View All on Instagram ↗</span>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       LAB-GROWN vs NATURAL
+  ═══════════════════════════════════════════ -->
+  <section id="diamonds">
+    <div class="diamonds-visual reveal-left">
+      <div class="diamond-card-wrap">
+        <div class="diamond-card" data-badge="Eco-Conscious">
+          <span class="diamond-emoji">🌿</span>
+          <h3>Lab-Grown Diamonds</h3>
+          <p>Ethically sourced, more affordable, and possessing the same physical, chemical, and optical properties as
+            natural diamonds. Ideal for the modern, conscious buyer who refuses to compromise on brilliance.</p>
+        </div>
+        <div class="diamond-card" data-badge="Timeless Classic">
+          <span class="diamond-emoji">⛏️</span>
+          <h3>Natural Diamonds</h3>
+          <p>Born deep within the earth over billions of years. Timeless, irreplaceable, and rare — each natural diamond
+            carries nature's own ancient story within it.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="diamonds-content reveal-right">
+      <p class="section-label">Best of Both Worlds</p>
+      <h2 class="section-title">
+        Step Into The Future<br>
+        <span class="shimmer-text">Of Fine Jewellery</span>
+      </h2>
+      <div class="section-divider"></div>
+      <p style="font-size:14px;color:var(--muted);line-height:2.1;margin-bottom:28px;">
+        Very few jewellery manufacturers cater to both traditionally mined diamonds and eco-conscious lab-grown ones.
+        Chanchal Diamonds is proud to be among those rare manufacturers — giving you the freedom to choose.
+      </p>
+      <ul class="diamond-features">
+        <li><span class="feat-diamond">◆</span> Same brilliance, durability, and allure as natural diamonds</li>
+        <li><span class="feat-diamond">◆</span> Lab-grown: modern, sustainable, and more accessible</li>
+        <li><span class="feat-diamond">◆</span> Natural: rare, timeless, carrying nature's own mystery</li>
+        <li><span class="feat-diamond">◆</span> Both certified by GIA, SGL &amp; Spectrum institutes</li>
+        <li><span class="feat-diamond">◆</span> Expert guidance to help you make the right choice</li>
+        <li><span class="feat-diamond">◆</span> D–E–F colour · IF–VVS1 clarity · Ideal Cut standards</li>
+      </ul>
+      <button class="btn-gold" onclick="window.open('https://wa.me/917200024247','_blank')">
+        <span>Get Expert Advice</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       STATS
+  ═══════════════════════════════════════════ -->
+  <div id="stats">
+    <div class="stats-grid">
+      <div class="stat-item reveal">
+        <div class="stat-number" data-count="50" data-suffix="+">50+</div>
+        <div class="stat-label">Master Craftsmen</div>
+      </div>
+      <div class="stat-item reveal">
+        <div class="stat-number">Top&nbsp;10</div>
+        <div class="stat-label">Manufacturer in Surat</div>
+      </div>
+      <div class="stat-item reveal">
+        <div class="stat-number" data-count="0" data-suffix="%">0%</div>
+        <div class="stat-label">Wastage on Diamonds</div>
+      </div>
+      <div class="stat-item reveal">
+        <div class="stat-number" data-count="100" data-suffix="%">100%</div>
+        <div class="stat-label">Buyback Guarantee</div>
+      </div>
+      <div class="stat-item reveal">
+        <div class="stat-number">₹2,500</div>
+        <div class="stat-label">Starting Price</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       CUSTOMISATION TIMELINE
+  ═══════════════════════════════════════════ -->
+  <section id="timeline">
+    <div class="section-inner">
+      <p class="section-label reveal">Bespoke Creations</p>
+      <h2 class="section-title reveal">
+        Your Vision,<br>
+        <span class="shimmer-text">Our Craftsmanship</span>
+      </h2>
+      <div class="section-divider reveal"></div>
+      <p class="reveal" style="font-size:14px;color:var(--muted);line-height:2.1;max-width:580px;">
+        From a rough idea to a finished masterpiece — our 6-step customisation process ensures your vision is translated
+        with absolute precision.
+      </p>
+
+      <div class="timeline-track">
+        <div class="timeline-step reveal">
+          <div class="step-hover-card">
+            <span class="step-hover-icon">💬</span>
+            <span>Share your dream design with us</span>
+          </div>
+          <div class="step-badge">1</div>
+          <h4>Consultation</h4>
+          <p>Share your ideas, preferences, and budget with our expert design team.</p>
+        </div>
+        <div class="timeline-step reveal">
+          <div class="step-hover-card">
+            <span class="step-hover-icon">✏️</span>
+            <span>3D CAD renders brought to life</span>
+          </div>
+          <div class="step-badge">2</div>
+          <h4>Design Creation</h4>
+          <p>3D CAD/CAM designs crafted precisely to your personalised vision.</p>
+        </div>
+        <div class="timeline-step reveal">
+          <div class="step-hover-card">
+            <span class="step-hover-icon">✅</span>
+            <span>You review &amp; greenlight the design</span>
+          </div>
+          <div class="step-badge">3</div>
+          <h4>Approval</h4>
+          <p>Review and finalise the 3D design before production begins.</p>
+        </div>
+        <div class="timeline-step reveal">
+          <div class="step-hover-card">
+            <span class="step-hover-icon">🔨</span>
+            <span>Master artisans handcraft your piece</span>
+          </div>
+          <div class="step-badge">4</div>
+          <h4>Crafting</h4>
+          <p>Our skilled artisans meticulously create your piece by hand.</p>
+        </div>
+        <div class="timeline-step reveal">
+          <div class="step-hover-card">
+            <span class="step-hover-icon">🔍</span>
+            <span>Rigorous quality checks at every stage</span>
+          </div>
+          <div class="step-badge">5</div>
+          <h4>Inspection</h4>
+          <p>Thorough quality checks against our industry-leading standards.</p>
+        </div>
+        <div class="timeline-step reveal">
+          <div class="step-hover-card">
+            <span class="step-hover-icon">📦</span>
+            <span>Certified, insured &amp; delivered to you</span>
+          </div>
+          <div class="step-badge">6</div>
+          <h4>Delivery</h4>
+          <p>Your unique piece delivered, certified, and ready to cherish.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       GOLD EXCHANGE
+  ═══════════════════════════════════════════ -->
+  <section id="exchange">
+    <div class="exchange-card reveal-left">
+      <div class="exchange-step-row">
+        <div class="ex-num">1</div>
+        <div class="ex-text">
+          <strong>Bring Your Old Gold</strong>
+          <p>Any old jewellery, coins, or ornaments accepted — no minimum weight.</p>
+        </div>
+      </div>
+      <div class="exchange-arrow">↓</div>
+      <div class="exchange-step-row">
+        <div class="ex-num">2</div>
+        <div class="ex-text">
+          <strong>Get Fair Valuation</strong>
+          <p>Transparent, real-time market rate assessment — no hidden deductions.</p>
+        </div>
+      </div>
+      <div class="exchange-arrow">↓</div>
+      <div class="exchange-step-row">
+        <div class="ex-num">3</div>
+        <div class="ex-text">
+          <strong>Choose New Jewellery</strong>
+          <p>Browse our exclusive collection or create a bespoke custom piece.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="exchange-content reveal-right">
+      <p class="section-label">Gold Exchange Service</p>
+      <h2 class="section-title">
+        Trade Old Gold for<br>
+        <span class="shimmer-text">New Brilliance</span>
+      </h2>
+      <div class="section-divider"></div>
+      <p style="font-size:14px;color:var(--muted);line-height:2.1;margin-bottom:36px;">
+        Simplify your jewellery upgrades with our seamless gold exchange service. Trade in your old gold at real market
+        value and pick from our exclusive collection — or go fully custom.
+      </p>
+      <button class="btn-gold" onclick="window.open('https://wa.me/917200024247','_blank')">
+        <span>Enquire on WhatsApp</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       CERTIFICATES
+  ═══════════════════════════════════════════ -->
+  <section id="certificates">
+    <div class="section-inner">
+      <p class="section-label reveal">Certified Authenticity</p>
+      <h2 class="section-title reveal">
+        Every Piece Comes With<br>
+        <span class="shimmer-text">Proof of Excellence</span>
+      </h2>
+      <div class="gold-line reveal"></div>
+      <p class="reveal" style="font-size:14px;color:var(--muted);max-width:540px;margin:0 auto 10px;line-height:2.1;">
+        All Chanchal Diamonds jewellery comes with certificates from leading international gemological institutes — your
+        assurance of quality, authenticity, and lasting value.
+      </p>
+
+      <div class="certs-grid">
+        <div class="cert-card reveal">
+          <span class="cert-badge">🏅</span>
+          <h3>GIA</h3>
+          <p>Gemological Institute of America</p>
+        </div>
+        <div class="cert-card reveal">
+          <span class="cert-badge">🏅</span>
+          <h3>SGL</h3>
+          <p>Solitaire Gemological Laboratories</p>
+        </div>
+        <div class="cert-card reveal">
+          <span class="cert-badge">🏅</span>
+          <h3>Spectrum</h3>
+          <p>Spectrum Gemmological Institute</p>
+        </div>
+        <div class="cert-card reveal">
+          <span class="cert-badge">⭐</span>
+          <h3>BIS</h3>
+          <p>Bureau of Indian Standards Hallmark</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       CTA
+  ═══════════════════════════════════════════ -->
+  <section id="cta">
+    <div style="position:relative;z-index:1;">
+      <p class="section-label reveal">Begin Your Journey</p>
+      <h2 class="cta-title reveal">
+        Own Your Dream<br>
+        <span class="shimmer-text">Piece Today</span>
+      </h2>
+      <div class="gold-line reveal"></div>
+      <p class="cta-desc reveal">
+        Connect with our experts on WhatsApp, explore our live catalogue, or visit our showroom in Surat to experience
+        the Chanchal Diamonds difference in person.
+      </p>
+      <div class="cta-btns reveal">
+        <button class="btn-wa" onclick="window.open('https://wa.me/917200024247','_blank')">
+          💬 &nbsp;WhatsApp Us
+        </button>
+        <button class="btn-gold" onclick="window.open('https://wa.me/c/918668169114','_blank')">
+          <span>View Catalogue</span>
+        </button>
+        <button class="btn-outline" onclick="window.open('https://g.co/kgs/YB41nd','_blank')">
+          <span>Find Our Store</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── NATIONAL NETWORK ─── -->
+  <section id="network" class="reveal">
+    <div class="section-inner">
+
+      <div class="network-layout">
+        <!-- Surat Card (Left) -->
+        <div class="network-city-card">
+          <div class="network-city-glow"></div>
+          <div class="network-city-dot"></div>
+          <h3 class="network-city-name">Surat</h3>
+          <span class="network-city-tag">HEADQUARTERS</span>
+          <div class="network-city-divider"></div>
+          <p class="network-city-desc">The diamond capital of India. Home to our state-of-the-art manufacturing facility with 50+ master craftsmen.</p>
+          <span class="network-city-pin">📍 Surat, Gujarat</span>
+        </div>
+
+        <!-- Center: Heading + Connecting Line -->
+        <div class="network-center">
+          <p class="section-label" style="margin-bottom: 6px;">Our National Network</p>
+          <h3 class="network-heading shimmer-text">Connecting Excellence</h3>
+          <div class="network-connector">
+            <div class="network-connector-dot-left"></div>
+            <div class="network-connector-line">
+              <div class="network-connector-particle"></div>
+            </div>
+            <div class="network-connector-dot-right"></div>
+          </div>
+          <p class="network-tagline">Bridging the diamond capital to the coastal south</p>
+        </div>
+
+        <!-- Chennai Card (Right) -->
+        <div class="network-city-card">
+          <div class="network-city-glow"></div>
+          <div class="network-city-dot"></div>
+          <h3 class="network-city-name">Chennai</h3>
+          <span class="network-city-tag">FLAGSHIP STORE</span>
+          <div class="network-city-divider"></div>
+          <p class="network-city-desc">Coastal elegance meets diamond brilliance. Our flagship showroom serving South India's finest clientele.</p>
+          <span class="network-city-pin">📍 Chennai, Tamil Nadu</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div>
+          <div class="footer-brand-name shimmer-text">Chanchal Diamonds</div>
+          <div class="footer-brand-tag">The House of Diamonds · Surat, India</div>
+        </div>
+
+        <div>
+          <div class="footer-nav-title">Collections</div>
+          <div class="footer-nav-links">
+            <a href="#gallery">Diamond Rings</a>
+            <a href="#gallery">Necklaces</a>
+            <a href="#gallery">Earrings & Pendants</a>
+            <a href="#gallery">Gold Bangles</a>
+            <a href="#gallery">Platinum Jewellery</a>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-nav-title">Services</div>
+          <div class="footer-nav-links">
+            <a href="#timeline">Custom Design</a>
+            <a href="#exchange">Gold Exchange</a>
+            <a href="#diamonds">Lab-Grown Diamonds</a>
+            <a href="#certificates">Certifications</a>
+            <a href="https://wa.me/917200024247" target="_blank">Loose Diamonds</a>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-nav-title">Connect</div>
+          <div class="footer-social">
+            <a class="social-btn" href="https://www.instagram.com/chanchaldiamonds" target="_blank"
+              title="Instagram">IG</a>
+            <a class="social-btn" href="https://www.facebook.com/ChanchalDiamonds/" target="_blank"
+              title="Facebook">FB</a>
+            <a class="social-btn" href="https://youtube.com/chanchaldiamonds6061" target="_blank" title="YouTube">YT</a>
+            <a class="social-btn" href="https://wa.me/917200024247" target="_blank" title="WhatsApp">WA</a>
+          </div>
+          <div style="margin-top:18px;">
+            <a href="https://g.page/r/CaakEGxW4AwsEAQ/review" target="_blank"
+              style="font-size:11px;color:var(--muted);letter-spacing:1px;border-bottom:1px solid var(--border);padding-bottom:2px;">Leave
+              a Google Review ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2026 Chanchal Diamonds · The House of Diamonds · Surat, India</p>
+        <p class="footer-copy" style="opacity:0.5;">Crafted with precision &amp; passion</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Modals -->
+  <div id="collection-modal" class="modal-overlay">
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close-btn">&times;</button>
+      <div class="modal-body">
+        <div class="modal-image-col">
+          <img id="modal-img" src="" alt="Collection Image">
+        </div>
+        <div class="modal-text-col">
+          <h3 id="modal-title">Collection Title</h3>
+          <div class="section-divider" style="margin: 20px 0;"></div>
+          <p id="modal-desc">Collection description goes here.</p>
+          <a href="https://wa.me/917200024247" target="_blank" class="btn btn-outline" style="margin-top: 30px; text-decoration: none; padding: 12px 24px; display: inline-block;">Enquire Now ↗</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="main.js"></script>
+
+</body>
+
+</html>
